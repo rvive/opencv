@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/contours_inex.dir/contours_inex.cpp.o"
+  "CMakeFiles/contours_inex.dir/contours_inex.cpp.o.d"
   "contours_inex"
   "contours_inex.pdb"
 )

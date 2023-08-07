@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/contours.dir/contours.cpp.o"
+  "CMakeFiles/contours.dir/contours.cpp.o.d"
   "contours"
   "contours.pdb"
 )

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/edges.dir/edges.cpp.o"
+  "CMakeFiles/edges.dir/edges.cpp.o.d"
   "edges"
   "edges.pdb"
 )

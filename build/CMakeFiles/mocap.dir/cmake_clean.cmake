@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mocap.dir/mocap.cpp.o"
+  "CMakeFiles/mocap.dir/mocap.cpp.o.d"
   "mocap"
   "mocap.pdb"
 )

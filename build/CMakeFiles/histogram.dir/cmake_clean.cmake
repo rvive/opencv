@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/histogram.dir/histogram.cpp.o"
+  "CMakeFiles/histogram.dir/histogram.cpp.o.d"
   "histogram"
   "histogram.pdb"
 )

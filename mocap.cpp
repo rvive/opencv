@@ -10,20 +10,19 @@ float disArray[10] = {};
 float velArray[10] = {};
 float aceArray[10] = {};
 
-ofstream dataPos("/home/vive/pruebas/pruebas_mocap_m1.dat");
+//ofstream dataPos("/home/vive/pruebas/pruebas_mocap_m1.dat");
 int main()
 {   
     // --------------------ADQUSICIÓN DE IMAGEN----------------------
-    Mat img = imread("/home/vive/images_mocap/escuadra/visor_ir.jpg", IMREAD_GRAYSCALE); 
+    Mat img = imread("/home/rvive/Documents/GitHub/opencv/visor_ir.jpg", IMREAD_GRAYSCALE); 
     imshow("original Image", img);
-    waitKey(0);
-
+    
     // -----------------------PROCESAMIENTO--------------------------
     // Thresholding
     Mat dst;
     threshold(img,dst,254, 255, THRESH_BINARY);
     imshow("threshold", dst);
-    waitKey(0);
+    
     // Contours detection
     vector<Vec4i> hierarchy;
     vector<vector<Point> > contours;
@@ -70,7 +69,7 @@ int main()
 
         d = sqrt(pow(dx, 2) + pow(dy,2)); // Desplazamiento del marcador 
 
-        dataPos << std::fixed << posArray[k] << "," << posArray[k+1] << "," << d << "," << i+1<< endl;
+        //dataPos << std::fixed << posArray[k] << "," << posArray[k+1] << "," << d << "," << i+1<< endl;
     }
 
 
